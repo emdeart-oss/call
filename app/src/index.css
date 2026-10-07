@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white;
+}
+/* Détail matériel des partenaires (HTML issu de la base) */
+.partner-materiel ul {
+  list-style: disc;
+  padding-left: 1rem;
+}
+.partner-materiel ul ul {
+  list-style: circle;
+}
+.partner-materiel li {
+  margin: 0.125rem 0;
+}
+.partner-materiel a {
+  text-decoration: underline;
+}
